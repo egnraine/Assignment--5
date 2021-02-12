@@ -3,6 +3,10 @@ public class Driver
 {
 	public static void main (String[] args)
 	{
-		System.out.println("hello world");
+		CharacterStats Traveler = new CharacterStats("Username", "Sword", "Adaptive", 1, 912, 18, 57, 0);
+		Traveler.display();
+		
+		Traveler.rename("Lumine");
+		Traveler.display();
 	}
 }
